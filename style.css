@@ -1,0 +1,108 @@
+* {
+    /* Tudo que estiver no asterísco vai funcionar em todo o site, como uma variável*/
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* vh = Altura */
+    width: 100vw;
+    /*vw = largura*/
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+h2 {
+    color: #ffff;
+    font-size: 24px;
+    /*tamanho do texto*/
+}
+
+.caixa-maior {
+    background-color: #000000;
+    /*troca a cor do fundo*/
+    width: 95%;/*largura em 95% para limitar o tamanho em celulares*/
+    max-width: 420px;/* o de cima junto c/ o (max-width) servem para fazer  ficar responsivo */
+    padding: 20px;
+    border-radius: 25px;
+    opacity: 0.9;
+}
+
+input {
+    border: none;/*borda do elemento*/
+    outline: none;/*borda quando seleciona o elemento*/
+    padding: 10px;/*espaçamento interno*/
+    border-radius: 24px;/*arredonda as bordas*/
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    opacity: 0.8;/*transparencia do item*/
+    color: #ffffff;
+    width: calc(100% - 100px);/*ocupa toda tela menos 100px*/
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 1px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media {
+    /*altera na caixa media apartir do h2*/
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    margin-top: 30px;
+   
+}
+
+.lupa {
+    height: 25px;
+
+}
+
+.temp {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.icone {
+height: 15;    
+width: 15;
+}
+
+.descricao {
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+
+}
+
